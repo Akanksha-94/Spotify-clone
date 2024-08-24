@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--cdn link of font awesome-->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="picture/logo.png" />
+  <!--put spotify logo -->
+  <title>Sotify - web Player: Music for eveyone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <!--font awesome -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="slidebar">
+      <div class="nav">
+        <div class="nav-options" style="opacity: 1">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-options">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+      <div class="liberary">
+        <div class="options">
+          <div class="Lib-options nav-options">
+            <img src="picture/library_icon.png" />
+            <a href="#">Your Library</a>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="lib-box">
+          <div class="box">
+            <p class="box-p1">Create your first playlist</p>
+            <p class="box-p2">It's easy, we'll help you</p>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="box">
+            <p class="box-p1">Let's find some podcasts to follow</p>
+            <p class="box-p2">We'll keep you updated on new episodes</p>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="sticky-nav">
+        <div class="nav-icons-left">
+          <img src="picture/backward_icon.png" />
+          <img src="picture/forward_icon.png" class="hide" />
+        </div>
+        <div class="sticky-nav-option-right">
+          <button class="badge nav-item hide">Explore Premium</button>
+          <button class="badge nav-item dark-badge"><i class="fa-solid fa-download"
+              style="margin-right: 5px;"></i>Install App
+          </button>
+          <i class="fa-regular fa-user nav-item"></i>
+        </div>
+      </div>
+      <!-- card line 1 -->
+      <h2>Recently Played</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/card1img.jpeg" class="card-img">
+          <p class="card-title"> Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+      </div>
+      <!-- card line 2 -->
+      <h2>Treanding now near you</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/card2img.jpeg" class="card-img">
+          <p class="card-title"> Mahiye Jinna Sohna</p>
+          <p class="card-info">Darshan Raval</p>
+        </div>
+        <div class="card">
+          <img src="picture/card3img.jpeg" class="card-img">
+          <p class="card-title"> Mere Pass Tum ho(Original Motion Picture Soundtrack)</p>
+          <p class="card-info">Rahat Fateh Ali khan</p>
+        </div>
+        <div class="card">
+          <img src="picture/card4img.jpeg" class="card-img">
+          <p class="card-title"> Ney Ready(From <br>"Leo(Telugu)")</p>
+          <p class="card-info">Anirudh Ravichaner</p>
+        </div>
+        <div class="card">
+          <img src="picture/card5img.jpeg" class="card-img">
+          <p class="card-title"> Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card6img.jpeg" class="card-img">
+          <p class="card-title"> Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+      </div>
+      <!-- card line 3 -->
+      <h2>Featured Charts</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/card5img.jpeg" class="card-img">
+          <p class="card-title"> Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card6img.jpeg" class="card-img">
+          <p class="card-title"> Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card1img.jpeg" class="card-img">
+          <p class="card-title"> Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+      </div>
+      <!-- card line-4 -->
+      <h2>Popular artists</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/circle-card1.JPG" class="card-img-round">
+          <p class="card-title">Arijit Singh</p>
+          <p class="card-info">Artist</p>
+        </div>
+        <div class="card">
+          <img src="picture/circle-card2.JPG" class="card-img-round">
+          <p class="card-title">Darshan Raval</p>
+          <p class="card-info">Artist</p>
+        </div>
+        <div class="card">
+          <img src="picture/circle-card3.JPG" class="card-img-round">
+          <p class="card-title"> Arman Malik</p>
+          <p class="card-info">Artist</p>
+        </div>
+        <div class="card">
+          <img src="picture/circle-card4.JPG" class="card-img-round">
+          <p class="card-title">Jubin Nautiyal</p>
+          <p class="card-info">Artist</p>
+        </div>
+
+      </div>
+
+      <!-- card line-5 -->
+
+      <h2>India's Best</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/card-line5-1.PNG" class="card-img">
+          <p class="card-title"> I-Pop Icons</p>
+          <p class="card-info">Hottest tracks from ypur favourite I-P...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line5 -2.JPG" class="card-img">
+          <p class="card-title">Panjabi 101</p>
+          <p class="card-info">Ultimate 101 <br>Punjabi Hits with...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line5-3.PNG" class="card-img">
+          <p class="card-title">Bollywood <br>Center</p>
+          <p class="card-info">Bollywood<br> Center...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line5-4.PNG" class="card-img">
+          <p class="card-title"> RAP 91</p>
+          <p class="card-info">India's Rap Scene.<br>Cover-...</p>
+        </div>
+
+      </div>
+
+
+      <!-- card-line-6 -->
+
+
+      <h2>Shows to try</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/card-line6-1.JPG" class="card-img">
+          <p class="card-title">MSA previously My StoryAnimated</p>
+          <p class="card-info">Charlotte</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line6-2.JPG" class="card-img">
+          <p class="card-title">The Stories of Mahabharata</p>
+          <p class="card-info">Sudipta Bhawamik</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line6-3.JPG" class="card-img">
+          <p class="card-title">Weekly Motivation by Ben Lionel Scott</p>
+          <p class="card-info">Ben Lionel Scott</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line604.JPG" class="card-img">
+          <p class="card-title"> SHRIMAD BHAGWADGITA</p>
+          <p class="card-info">Amit Wadhwa</p>
+        </div>
+
+      </div>
+      <br>
+
+      <!-- card-line-7 -->
+
+      <p class="card-info">Bringing together the top songs from an artist.</p>
+      <h2>Best of artists</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="picture/card-line7-1.JPG" class="card-img">
+          <p class="card-title">BTS</p>
+          <p class="card-info">Welcome to the BTS's universe...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line7-2.JPG" class="card-img">
+          <p class="card-title">Jubin Nautiyal</p>
+          <p class="card-info">This is Jubin Nautiyal.The...|
+
+          </p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line7-3.JPG" class="card-img">
+          <p class="card-title">Karthik</p>
+          <p class="card-info">This is Karthik...</p>
+        </div>
+        <div class="card">
+          <img src="picture/card-line7-4.JPG" class="card-img">
+          <p class="card-title"> Neha Kakkar</p>
+          <p class="card-info">Best of her.The...</p>
+        </div>
+
+      </div>
+
+      <!-- footer -->
+      <div class="footer-content">
+        <div class="footer-box">
+          <h4>Company</h4>
+          <a href="#" class="hover-effect">About</a>
+          <a href="#" class="hover-effect">Jobs</a>
+          <a href="#" class="hover-effect">For the Record</a>
+        </div>
+
+        <div class="footer-box">
+          <h4>Communities</h4>
+          <a href="#" class="hover-effect">For Artists</a>
+          <a href="#" class="hover-effect">Developers</a>
+          <a href="#" class="hover-effect">Advertising</a>
+          <a href="#" class="hover-effect">Investors</a>
+          <a href="#" class="hover-effect">Vendors</a>
+        </div>
+        <div class="footer-box">
+          <h4>Useful links</h4>
+          <a href="#" class="hover-effect">Support</a>
+
+        </div>
+        <div class="footer-box">
+          <h4>Spotify Plans</h4>
+          <a href="#" class="hover-effect">Premium Individual</a>
+          <a href="#" class="hover-effect">Premium Duo</a>
+          <a href="#" class="hover-effect">Premium Student</a>
+          <a href="#" class="hover-effect">Spotify</a>
+        </div>
+        <div class="social-media">
+          <a href="#" class="social-icons"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icons"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="social-icons"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <!-- footer-line -->
+      <div class="footer">
+
+      </div>
+      <div class="line"></div>
+
+    </div>
+
+
+    <!-- music-player -->
+    <div class="music-player">
+      <div class="album">
+        <div class="album-left">
+          <img src="picture/album_picture.jpeg">
+
+          <p class="card-title-mus"> Daylight</p>
+
+
+
+        </div>
+        <div class="album-right">
+          <img class="mus-img" src="picture/album_icon1 (1).png">
+          <img class="mus-img" src="picture/album_icon2.png">
+        </div>
+      </div>
+      <div class="player">
+        <div class="player-controls">
+          <img src="picture/player_icon1.png" class="player-control-icon">
+          <img src="picture/player_icon2.png" class="player-control-icon">
+          <img src="picture/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+          <img src="picture/player_icon4.png" class="player-control-icon">
+          <img src="picture/player_icon5.png" class="player-control-icon">
+        </div>
+
+        <div class="playback-bar">
+          <span class="curr-time">00:00</span>
+          <input type="range" min="0" max="100" class="progress-bar" step="1 ">
+          <span class="curr-time">3:33</span>
+        </div>
+      </div>
+      <div class="controls">
+        <img src="picture/controls_icon1.png" style="height: 40px;">
+        <img src="picture/controld_icon2.png" style="height: 40px;">
+        <img src="picture/controls_icon3.png" style="height: 25px;">
+        <img src="picture/controls_icon4.png" style="height: 20px;">
+        <img src="picture/controls_icon5.png" for="volume" style="height: 40px;">
+        <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+      </div>
+
+
+    </div>
+
+  </div>
+  </div>
+</body>
+
+</html>
